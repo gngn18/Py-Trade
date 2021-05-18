@@ -29,17 +29,7 @@ import json
 style.use('ggplot')
 
 
-#pulling data from the web and saving it as a CSV to my computer, in this program file
-#IEX Cloud API token 
-#  pk_a3d065853a014e4b9e99cf1a66981f78 
-'''
-key = 'pk_a3d065853a014e4b9e99cf1a66981f78'
-url = "https://cloud.iexapis.com/stable/stock/twtr/chart/6m?token=" + key
-response = requests.get(url)
-data = json.loads(response.text) #data will be dictionary
-data_table = pd.read_json(url)
-'''
-#was able to mute this
+
 
 
 # data import and cleansing and sorting 
