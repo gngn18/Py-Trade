@@ -16,7 +16,7 @@ import json
 style.use('ggplot')
 
 # you will need to add the data yourself (ie. a csv file containing your stock data)
-# I used an API wiht a data cloud service to get my data so I have removed my KEY 
+# I used an API from IEX cloud service to get my data so I have removed my KEY 
 
 
 #modifying the data so it will be in the format and the amount that I want
